@@ -11,7 +11,7 @@ df_items = pd.DataFrame(items_input, columns=["item_code", "item_name"])
 
 df_items.to_excel("items.xlsx", index=False)
 
-queries = ["bubbl wrp rol", "bubbl wrp rol 3m","hlen kset"]
+queries = ["bubbl wrp rol", "bubbl wrp rol 3mm","hlen kset"]
 
 df = pd.read_excel("items.xlsx")
 

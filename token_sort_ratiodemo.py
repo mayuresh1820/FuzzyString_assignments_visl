@@ -1,19 +1,19 @@
 from rapidfuzz import fuzz
 
-#queries = ["bubbl wrp rol", "alen keyset", "disposable cupp"]
-queries = ["10mm Allen Key Set", "Stainless Steel Bolt 5mm"]
-
-# candidates = [
-#     "bubble wrap roll",
-#     "allen key set",
-#     "disposable cup",
-#     "flex print sheet"
-# ]
+queries = ["bubbl wrp rol", "alen keyset", "disposable cupp"]
+#queries = ["10mm Allen Key Set", "Stainless Steel Bolt 5mm"]
 
 candidates = [
-    "Allen Key 10 mm",
-    "5mm SS Bolt",
+    "bubble wrap roll",
+    "allen key set",
+    "disposable cup",
+    "flex print sheet"
 ]
+
+# candidates = [
+#     "Allen Key 10 mm",
+#     "5mm SS Bolt",
+# ]
 
 for q in queries:
     print(f"\nQuery: {q}")
